@@ -20,9 +20,9 @@
 
 Function Intrest(){
       let P = parseFloat(document.getElementById("p").value)
-}     let R = parseFloat(document.getElementById("p").value)
-      let N = parseFloat(document.getElementById("p").value)
-      let T = parseFloat(document.getElementById("p").value)
+}     let R = parseFloat(document.getElementById("r").value)
+      let N = parseFloat(document.getElementById("n").value)
+      let T = parseFloat(document.getElementById("t").value)
 
       let Paranthesis = 1+ (r /n)
 
