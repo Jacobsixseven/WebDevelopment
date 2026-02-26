@@ -13,6 +13,13 @@ function name(){
 */
 
 /* Challenge 2:  Create the function for Challenge 1 scenario */
+function RecArea(){
+  let width = parseFloat(document.getElementById("w").value);
+  let length = parseFloat(document.getElementById("l").value);
+  let message = ""
+  let output = document.getElementById("output")
+
+}
 
 
 
@@ -21,5 +28,8 @@ function name(){
 2) You will need to write HTML as part of the output.  
    For example, output.innerHTML = `<input src="pic.png">` would place the image in the <div>*/
 function pet(){
+  let animal = document.getElementById("animal").value;
+  let emotion = document.getElementById("emotion").value;
+  let output = document.getElementById("output")
 
 }
