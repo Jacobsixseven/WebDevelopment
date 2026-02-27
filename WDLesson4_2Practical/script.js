@@ -30,6 +30,6 @@ function RecArea(){
 function pet(){
   let animal = document.getElementById("animal").value;
   let emotion = document.getElementById("emotion").value;
-  let output = document.getElementById("output")
+  let output = document.getElementById("output");
 
 }
