@@ -18,13 +18,15 @@ function CompoundIntrest(){
     let r = parseFloat(document.getElementById("intrest").value);
     let n = parseFloat(document.getElementById("number times").value);
     let t = parseFloat(document.getElementById("periods").value);
+
     let output = document.getElementById("output");
+
     let build = "";
-    let A = P(1 +r/n)**(n*t)
+    let t = 1
 }
-    for(let t=0; t<n; t+=1){
-        let Math.floor(P * 1+r/n)*(n**t)
-        build +=`Year ${n}: ${a}<br>`
+    for(let t=1; t<n; t+=1){
+        let a = p * Math.pow(1 + r / n) * (n * t)
+        build += `Year ${t + 1}: $${a.toFixed(2)}<br>`;
 }
 
     output.innerHTML = build

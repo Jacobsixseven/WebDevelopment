@@ -11,8 +11,19 @@
 */
 
 function balance(){
+        let output = document.getElementById("output");
+        let p = parseFloat(document.getElementById("P").value) / 100;
+        let r = parseFloat(document.getElementById("R").value) / 100;
+        let t = parseFloat(document.getElementById("T").value) / 100;
+        build = "<table>";
 
-
+        for(let T = 1; T <= T * 100; T += 1){
+                let A = P*(1 + (r/1))**(1 / t)
+                build += `<table>`
+                build += `<tr><td>${A}.toFixed(2)</td></tr>`
+        }
+        build += "</table>"
+        output.innerHTML = build;
 }
 
 /* Challenge Bonus: Allow the user to enter n.  This will require you to modify,

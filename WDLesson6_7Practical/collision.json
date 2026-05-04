@@ -1,0 +1,62 @@
+[
+  {
+    "crash_date": "2021-09-11T00:00:00.000",
+    "crash_time": "02:39",
+    "borough": "QUEENS",
+    "zip_code": "11357",
+    "on_street_name": "WHITESTONE EXPRESSWAY",
+    "off_street_name": "20 AVENUE",
+    "contributing_factor_vehicle_1": "Driver Inattention/Distraction",
+    "contributing_factor_vehicle_2": "Unspecified",
+    "vehicle_type_code1": "Sedan",
+    "vehicle_type_code2": "SUV"
+  },
+  {
+    "crash_date": "2022-03-26T00:00:00.000",
+    "crash_time": "11:45",
+    "borough": "MANHATTAN",
+    "zip_code": "10017",
+    "on_street_name": "QUEENSBORO BRIDGE UPPER",
+    "off_street_name": "",
+    "contributing_factor_vehicle_1": "Following Too Closely",
+    "contributing_factor_vehicle_2": "Unspecified",
+    "vehicle_type_code1": "Taxi",
+    "vehicle_type_code2": "Sedan"
+  },
+  {
+    "crash_date": "2023-11-01T00:00:00.000",
+    "crash_time": "01:29",
+    "borough": "BROOKLYN",
+    "zip_code": "11230",
+    "on_street_name": "OCEAN PARKWAY",
+    "off_street_name": "",
+    "contributing_factor_vehicle_1": "Unsafe Speed",
+    "contributing_factor_vehicle_2": "Unspecified",
+    "vehicle_type_code1": "Motorcycle",
+    "vehicle_type_code2": "Sedan"
+  },
+  {
+    "crash_date": "2022-06-29T00:00:00.000",
+    "crash_time": "06:55",
+    "borough": "BRONX",
+    "zip_code": "10465",
+    "on_street_name": "THROGS NECK BRIDGE",
+    "off_street_name": "",
+    "contributing_factor_vehicle_1": "Driver Inattention/Distraction",
+    "contributing_factor_vehicle_2": "Unspecified",
+    "vehicle_type_code1": "Truck",
+    "vehicle_type_code2": "SUV"
+  },
+  {
+    "crash_date": "2022-09-21T00:00:00.000",
+    "crash_time": "13:21",
+    "borough": "MANHATTAN",
+    "zip_code": "10038",
+    "on_street_name": "BROOKLYN BRIDGE",
+    "off_street_name": "",
+    "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way",
+    "contributing_factor_vehicle_2": "Unspecified",
+    "vehicle_type_code1": "Bus",
+    "vehicle_type_code2": "Sedan"
+  }
+]

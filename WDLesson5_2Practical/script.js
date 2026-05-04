@@ -16,7 +16,20 @@ Now that you have the template, use a for loop to produce all five pizza cards.
 
 //init() function is called when the page loads in index.html
 function init(){
-  
+  let output = document.getElementById("output");
+  let build = "";
 
+  for(let i = 1; i <= 5; i+=1){
+      let price = (Math.random() * 2 + 10).toFixed(2);
+
+      build += `<div class="card">`;
+      build += `<img class="title" src="images/title${i}.png">`;
+      build += `<img class="pizza" src="images/pizza${i}.jpg">`;
+      build += `<p>$${price}</p>`;
+      build += `<input type="text" placeholder="Enter Quantity">`;
+      build += `<input type="button" value="Buy">`;
+      build += `</div>`;
+  }
+
+  output.innerHTML = build;
 }
-
