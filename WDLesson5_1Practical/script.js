@@ -25,6 +25,6 @@ function CompoundIntrest(){
     for(let t=0; t<n; t+=1){
         let Math.floor(P * 1+r/n)*(n**t)
         build +=`Year ${n}: ${a}<br>`
-    }
+}
 
     output.innerHTML = build
